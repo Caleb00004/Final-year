@@ -51,18 +51,6 @@ const SequenceRecall = () => {
         setDifficulty(set)
     }
 
-    // const handleStartGame = () => {
-    //     setStartGame(true)
-    //     const getNumbers = generateNumber()
-    //     setNumberSequence(getNumbers)
-
-    //     const intervalID = setInterval(() => {
-    //         setCountDown(prev => prev - 1)
-
-    //         countdown <= 0 && clearInterval(intervalID)
-    //     }, 1000)
-    // }
-
     const handleStartGame = () => {
         setStartGame(true);
         const getNumbers = generateNumber();
